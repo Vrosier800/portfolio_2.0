@@ -1,7 +1,6 @@
 import Layout from "../components/Layout";
 import PageWrapper from "../components/PageWrapper";
-import {Link, useLocation} from "react-router-dom";
-import seoData from "../components/SEOdata";
+import {Link} from "react-router-dom";
 
 export default function Home() {
 

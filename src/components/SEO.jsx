@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 import seoData from "./SEOdata";
 import {useEffect} from "react";
 
-export default function SEO({ noindex = false }) {
+export default function SEO() {
     const location = useLocation();
 
     let pageKey = "home";
