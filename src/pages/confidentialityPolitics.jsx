@@ -1,14 +1,9 @@
 import Layout from "../components/Layout";
 import PageWrapper from "../components/PageWrapper";
-import SEO from "../components/SEO";
 import seoData from "../components/SEOdata";
 import {useLocation} from "react-router-dom";
 
 export default function ConfidentialityPolitics() {
-
-    const { title, description } = seoData.confidentialityPolitics;
-    const location = useLocation();
-
 
     return (
         <>

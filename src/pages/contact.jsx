@@ -4,16 +4,11 @@ import { useEffect, useRef } from "react";
 import emailJS from "@emailjs/browser";
 import Layout from "../components/Layout";
 import PageWrapper from "../components/PageWrapper";
-import seoData from "../components/SEOdata";
-import SEO from "../components/SEO";
-import {useLocation} from "react-router-dom";
 
 export default function Contact() {
     const formRef = useRef();
     const captchaRef = useRef();
     const widgetId = useRef(null);
-    const location = useLocation();
-    const { title, description } = seoData.contact;
 
     useEffect(() => {
         if (window.grecaptcha && captchaRef.current && widgetId.current === null) {

@@ -1,13 +1,7 @@
 import Layout from "../components/Layout";
 import PageWrapper from "../components/PageWrapper";
-import seoData from "../components/SEOdata";
-import {useLocation} from "react-router-dom";
-import SEO from "../components/SEO";
 
 export default function LegalNotices() {
-    const { title, description } = seoData.legalNotices;
-    const location = useLocation();
-
 
     return (
         <>

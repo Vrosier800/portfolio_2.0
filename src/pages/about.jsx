@@ -1,13 +1,7 @@
 import PageWrapper from "../components/PageWrapper";
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
-import seoData from "../components/SEOdata";
-import {useLocation} from "react-router-dom";
 
 export default function About() {
-    const { title, description } = seoData.about;
-    const location = useLocation();
-
 
     return (
         <>
