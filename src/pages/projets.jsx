@@ -10,7 +10,7 @@ export default function Projets() {
                         className="bg-white rounded-2xl shadow-xl p-8 max-w-7xl w-full md:h-[559px] overflow-y-auto"
                     >
                         <h2 className="text-3xl font-semibold mb-4 text-left">Projet Mariage Symfony</h2>
-                        <p className="text-gray-600 mb-8 text-left max-w-4xl">
+                        <p className="text-gray-600 mb-8 text-left max-w-full">
                             Application web développée en Symfony pour la gestion d’un mariage.
                             Permet la gestion des invités, un formulaire RSVP, des préférences alimentaires,
                             la gestion des images avec des photographies des invités et bien plus encore.
@@ -19,13 +19,13 @@ export default function Projets() {
                         <div className="flex flex-col md:flex-row md:justify-center gap-6 mb-8">
                             <img
                                 src="/src/assets/img-mariage.png"
-                                alt="Victor Rosier en train de coder"
+                                alt="Formulaire RSVP du site de mariage"
                                 className="w-full md:w-[400px] h-64 md:h-80 object-cover rounded-lg shadow-md"
                                 loading="lazy"
                             />
                             <img
                                 src="/src/assets/img-mariage2.png"
-                                alt="Victor Rosier en train de coder"
+                                alt="Vue de la page des images du site de mariage"
                                 className="w-full md:w-[400px] h-64 md:h-80 object-cover rounded-lg shadow-md"
                                 loading="lazy"
                             />
@@ -42,7 +42,7 @@ export default function Projets() {
                             ))}
                         </div>
 
-                        <p className="text-gray-600 mb-6 max-w-4xl text-left">
+                        <p className="text-gray-600 mb-6 max-w-full text-left">
                             Ce projet a été réalisé en autonomie afin de servir à mon propre mariage.
                             Il permet de partager les informations de mon mariage avec les invités.
                         </p>
