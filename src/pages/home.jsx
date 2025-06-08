@@ -12,7 +12,7 @@ export default function Home() {
                 >
                     <div className="mb-8">
                         <img
-                            src="/src/assets/photoPortfolioMaquette.png"
+                            src="/src/assets/moi.png"
                             alt="Victor Rosier en train de coder"
                             className="rounded-full w-40 h-40 object-cover mx-auto shadow-lg"
                         />
