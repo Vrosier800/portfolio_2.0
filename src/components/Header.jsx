@@ -8,7 +8,11 @@ export default function Header() {
     return (
         <header className="bg-white shadow-md py-4 px-6 md:px-8">
             <div className="flex justify-between items-center">
-                <h1 className="text-xl font-bold">Victor Rosier</h1>
+                {/* Logo + Titre cliquable */}
+                <Link to="/" className="flex items-center space-x-3">
+                    <img src="/favicon.png" alt="Icône Victor Rosier" className="w-10 h-10"/>
+                    <h1 className="text-xl font-bold text-gray-900">Victor Rosier</h1>
+                </Link>
 
                 {/* Desktop Nav */}
                 <nav className="hidden md:flex space-x-6 text-gray-700 font-medium">
@@ -24,19 +28,24 @@ export default function Header() {
                     onClick={() => setMenuOpen(!menuOpen)}
                     aria-label="Menu"
                 >
-                    {menuOpen ? <X size={28} /> : <Menu size={28} />}
+                    {menuOpen ? <X size={28}/> : <Menu size={28}/>}
                 </button>
             </div>
 
             {/* Mobile Nav */}
             {menuOpen && (
                 <nav className="md:hidden mt-4 space-y-4 text-gray-700 font-medium">
-                    <Link to="/" onClick={() => setMenuOpen(false)} className="block hover:text-purple-600">Accueil</Link>
-                    <Link to="/projets" onClick={() => setMenuOpen(false)} className="block hover:text-purple-600">Projets</Link>
-                    <Link to="/apropos" onClick={() => setMenuOpen(false)} className="block hover:text-purple-600">À propos</Link>
-                    <Link to="/contact" onClick={() => setMenuOpen(false)} className="block hover:text-purple-600">Contact</Link>
+                    <Link to="/" onClick={() => setMenuOpen(false)}
+                          className="block hover:text-purple-600">Accueil</Link>
+                    <Link to="/projets" onClick={() => setMenuOpen(false)}
+                          className="block hover:text-purple-600">Projets</Link>
+                    <Link to="/apropos" onClick={() => setMenuOpen(false)} className="block hover:text-purple-600">À
+                        propos</Link>
+                    <Link to="/contact" onClick={() => setMenuOpen(false)}
+                          className="block hover:text-purple-600">Contact</Link>
                 </nav>
             )}
         </header>
+
     );
 }
