@@ -1,5 +1,7 @@
 import Layout from "../components/Layout";
 import PageWrapper from "../components/PageWrapper";
+import ImageMariage1 from "../assets/img-mariage.png"
+import ImageMariage2 from "../assets/img-mariage.png"
 
 export default function Projets() {
 
@@ -18,13 +20,13 @@ export default function Projets() {
 
                         <div className="flex flex-col md:flex-row md:justify-center gap-6 mb-8">
                             <img
-                                src="/src/assets/img-mariage.png"
+                                src={ImageMariage1}
                                 alt="Formulaire RSVP du site de mariage"
                                 className="w-full md:w-[400px] h-64 md:h-80 object-cover rounded-lg shadow-md"
                                 loading="lazy"
                             />
                             <img
-                                src="/src/assets/img-mariage2.png"
+                                src={ImageMariage2}
                                 alt="Vue de la page des images du site de mariage"
                                 className="w-full md:w-[400px] h-64 md:h-80 object-cover rounded-lg shadow-md"
                                 loading="lazy"
