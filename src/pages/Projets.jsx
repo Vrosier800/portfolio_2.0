@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import PageWrapper from "../components/PageWrapper";
 import ImageMariage1 from "../assets/img-mariage.png"
-import ImageMariage2 from "../assets/img-mariage.png"
+import ImageMariage2 from "../assets/img-mariage2.png"
 
 export default function Projets() {
 
