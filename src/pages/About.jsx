@@ -1,7 +1,7 @@
 import PageWrapper from "../components/PageWrapper";
 import Layout from "../components/Layout";
 
-export default function About1() {
+export default function About() {
 
     return (
         <>
