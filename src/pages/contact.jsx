@@ -30,8 +30,8 @@ export default function Contact() {
 
         emailJS
             .sendForm(
-                "service_qv7x1bw",
-                "template_r29oios",
+                "service_imkqftf",
+                "template_6e2dn3g",
                 formRef.current,
                 import.meta.env.VITE_MAILJS_KEY
             )
@@ -59,6 +59,56 @@ export default function Contact() {
                 >
                     <h2 className="text-3xl font-semibold mb-8 text-left">Me contacter</h2>
 
+                    <section className="mb-6">
+                        <ul className="flex flex-col sm:flex-row sm:gap-20 gap-5">
+                            <li>
+                                <a
+                                    href="https://www.github.com/vrosier800"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-3 text-purple-700 hover:text-purple-900 transition"
+                                >
+                                    <img
+                                        src="/public/github.png"
+                                        alt="GitHub"
+                                        className="w-6 h-6"
+                                    />
+                                    GitHub
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.instagram.com/vrosier800/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-3 text-purple-700 hover:text-purple-900 transition"
+                                >
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                                        alt="Instagram"
+                                        className="w-6 h-6 rounded"
+                                    />
+                                    Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/in/victor-rosier-2143b5140/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-3 text-purple-700 hover:text-purple-900 transition"
+                                >
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg"
+                                        alt="LinkedIn"
+                                        className="w-6 h-6"
+                                    />
+                                    LinkedIn
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+
                     <form ref={formRef} onSubmit={sendMail} className="space-y-6">
                         <div>
                             <label htmlFor="name" className="block mb-2 font-medium">
@@ -70,6 +120,20 @@ export default function Contact() {
                                 type="text"
                                 required
                                 placeholder="Votre nom"
+                                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+                            />
+                        </div>
+
+                        <div>
+                            <label htmlFor="subject" className="block mb-2 font-medium">
+                                Sujet
+                            </label>
+                            <input
+                                id="subject"
+                                name="subject"
+                                type="text"
+                                required
+                                placeholder="Sujet du message"
                                 className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
                             />
                         </div>
