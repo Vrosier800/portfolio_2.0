@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import Home from "./pages/home";
-import Projets from "./pages/projets";
-import About from "./pages/about";
-import Contact from "./pages/contact";
-import ConfidentialityPolitics from "./pages/confidentialityPolitics";
-import LegalNotices from "./pages/legalNotices";
+import Home from "./pages/Home";
+import Projets from "./pages/Projets";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import ConfidentialityPolitics from "./pages/ConfidentialityPolitics";
+import LegalNotices from "./pages/LegalNotices";
 import SEO from "./components/SEO"; // 👈 Import ici
 
 function AnimatedRoutes() {
