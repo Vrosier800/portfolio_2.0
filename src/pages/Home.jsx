@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import PageWrapper from "../components/PageWrapper";
 import {Link} from "react-router-dom";
-import Image from "src/assets/moi.png"
+import Image from "../assets/moi.png"
 
 export default function Home() {
 
