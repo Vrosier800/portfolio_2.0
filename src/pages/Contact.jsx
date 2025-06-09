@@ -83,6 +83,58 @@ export default function Contact() {
             <PageWrapper className="bg-white rounded-2xl shadow-xl p-8 max-w-7xl w-full md:h-[553px] overflow-y-auto">
                 <h2 className="text-3xl font-semibold mb-8 text-left">Me contacter</h2>
 
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">Vous souhaitez échanger au sujet de votre projet ?
+                    Je suis joignable via mes réseaux sociaux ou directement à travers ce formulaire de contact.</p>
+                <section className="mb-6">
+                    <ul className="flex flex-col sm:flex-row sm:gap-20 gap-5">
+                        <li>
+                            <a
+                                href="https://www.github.com/vrosier800"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-3 text-purple-700 hover:text-purple-900 transition"
+                            >
+                                <img
+                                    src="/public/github.png"
+                                    alt="GitHub"
+                                    className="w-6 h-6"
+                                />
+                                GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.instagram.com/vrosier800/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-3 text-purple-700 hover:text-purple-900 transition"
+                            >
+                                <img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                                    alt="Instagram"
+                                    className="w-6 h-6 rounded"
+                                />
+                                Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/victor-rosier-2143b5140/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-3 text-purple-700 hover:text-purple-900 transition"
+                            >
+                                <img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg"
+                                    alt="LinkedIn"
+                                    className="w-6 h-6"
+                                />
+                                LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
                 <section className="mb-6">
                     <ul className="flex flex-col sm:flex-row sm:gap-20 gap-5">
                     </ul>
