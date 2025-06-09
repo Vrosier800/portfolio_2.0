@@ -83,8 +83,11 @@ export default function Contact() {
             <PageWrapper className="bg-white rounded-2xl shadow-xl p-8 max-w-7xl w-full md:h-[553px] overflow-y-auto">
                 <h2 className="text-3xl font-semibold mb-8 text-left">Me contacter</h2>
 
-                <p className="text-lg text-gray-700 leading-relaxed mb-6">Vous souhaitez échanger au sujet de votre projet ?
-                    Je suis joignable via mes réseaux sociaux ou directement à travers ce formulaire de contact.</p>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    Vous souhaitez échanger au sujet de votre projet ?
+                    Je suis joignable via mes réseaux sociaux ou directement à travers ce formulaire de contact.
+                </p>
+
                 <section className="mb-6">
                     <ul className="flex flex-col sm:flex-row sm:gap-20 gap-5">
                         <li>
