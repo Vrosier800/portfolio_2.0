@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import emailJS from "@emailjs/browser";
 import Layout from "../components/Layout";
 import PageWrapper from "../components/PageWrapper";
+import GitHub from "../assets/github.png"
 
 export default function Contact() {
     const formRef = useRef();
@@ -98,7 +99,7 @@ export default function Contact() {
                                 className="flex items-center gap-3 text-purple-700 hover:text-purple-900 transition"
                             >
                                 <img
-                                    src="/public/github.png"
+                                    src={GitHub}
                                     alt="GitHub"
                                     className="w-6 h-6"
                                 />
