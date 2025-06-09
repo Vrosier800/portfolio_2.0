@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import PageWrapper from "../components/PageWrapper";
 import {Link} from "react-router-dom";
-import Image from "../assets/moi.png"
+import Image from "../assets/victor.webp"
 
 export default function Home() {
 
@@ -14,7 +14,7 @@ export default function Home() {
                     <div className="mb-8">
                         <img
                             src={Image}
-                            alt="Victor Rosier en train de coder"
+                            alt="Victor Rosier"
                             className="rounded-full w-40 h-40 object-cover mx-auto shadow-lg"
                         />
                     </div>
