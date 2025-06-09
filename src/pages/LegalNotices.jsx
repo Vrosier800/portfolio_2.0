@@ -30,11 +30,12 @@ export default function LegalNotices() {
                     <p>
                         <strong className="bold">Hébergeur :</strong>
                         <br/>
-                        Nom : Hetzner Online GmbH
+                        Nom : Vercel Inc.
                         <br/>
-                        Adresse : Industriestraße 25, 91710 Gunzenhausen, Allemagne
+                        Adresse : 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis
                         <br/>
-                        Téléphone : +49 9831 505-0
+                        Site web : https://vercel.com
+
                     </p>
 
                     <br/>

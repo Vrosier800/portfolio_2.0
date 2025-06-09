@@ -9,7 +9,7 @@ export default function Projets() {
         <>
             <Layout className="bg-gray-100 min-h-screen flex flex-col">
                     <PageWrapper
-                        className="bg-white rounded-2xl shadow-xl p-8 max-w-7xl w-full md:h-[559px] overflow-y-auto"
+                        className="bg-white rounded-2xl shadow-xl p-8 max-w-7xl w-full max-h-[71vh] overflow-y-auto"
                     >
                         <h2 className="text-3xl font-semibold mb-4 text-left">Projet Mariage Symfony</h2>
                         <p className="text-gray-600 mb-8 text-left max-w-full">

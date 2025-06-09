@@ -16,7 +16,8 @@ export default function ConfidentialityPolitics() {
 
                     <p>Conformément au <strong>RGPD</strong>, vous disposez d’un droit d’accès,
                         de rectification et de suppression des données vous concernant. Pour exercer ce droit,
-                        contactez-nous à <a className="text-blue-600 hover:text-purple-600" href="mailto:rosiervictor_dev@outlook.com">rosiervictor_dev@outlook.com</a>.
+                        contactez-nous à <a className="text-blue-600 hover:text-purple-600"
+                                            href="mailto:rosiervictor_dev@outlook.com">rosiervictor_dev@outlook.com</a>.
                     </p>
                     <br/>
 
@@ -27,8 +28,15 @@ export default function ConfidentialityPolitics() {
                     </p>
                     <br/>
 
+                    <p>Ce site est hébergé par <strong>Vercel Inc.</strong>, basé aux États-Unis.
+                        Les données peuvent être transférées en dehors de l’Union européenne.
+                        Vercel met en place des garanties appropriées pour encadrer ces transferts, notamment via des
+                        clauses contractuelles types approuvées par la Commission européenne.
+                    </p>
+
                     <p>Pour plus d’informations, consultez la CNIL :
-                        <a className="text-blue-600 hover:text-purple-600" href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer">www.cnil.fr</a>
+                        <a className="text-blue-600 hover:text-purple-600" href="https://www.cnil.fr" target="_blank"
+                           rel="noopener noreferrer">www.cnil.fr</a>
                     </p>
 
                     <p className="text-sm text-gray-500 mt-4">Dernière mise à jour : juin 2025</p>
